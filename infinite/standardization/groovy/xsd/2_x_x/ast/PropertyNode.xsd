@@ -9,7 +9,9 @@
     <xs:complexType name="PropertyNode">
         <xs:complexContent>
             <xs:extension base="AnnotatedNode">
-                <xs:attribute use="required" name="field" type="FieldNode"/>
+                <xs:sequence>
+                <xs:element name="field" type="FieldNode"/>
+                </xs:sequence>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>

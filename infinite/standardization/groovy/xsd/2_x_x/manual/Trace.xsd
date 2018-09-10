@@ -5,7 +5,7 @@
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:include schemaLocation="../BaseLogEntry.xsd"/>
     <xs:include schemaLocation="../Object.xsd"/>
-    <xs:complexType name="Message">
+    <xs:complexType name="Trace">
         <xs:complexContent>
             <xs:extension base="BaseLogEntry">
                 <xs:sequence>

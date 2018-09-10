@@ -6,7 +6,7 @@
         elementFormDefault="qualified">
     <xs:include schemaLocation="BaseLogEntry.xsd"/>
     <xs:include schemaLocation="RuntimeLogEntry.xsd"/>
-    <!--
+    <!---->
     <xs:include schemaLocation="./ast/stmt/BlockStatement.xsd"/>
     <xs:include schemaLocation="./Object.xsd"/>
     <xs:include schemaLocation="./ast/expr/TernaryExpression.xsd"/>
@@ -20,10 +20,8 @@
     <xs:include schemaLocation="./ast/stmt/AssertStatement.xsd"/>
     <xs:include schemaLocation="./ast/expr/UnaryMinusExpression.xsd"/>
     <xs:include schemaLocation="./BaseEvent.xsd"/>
-    <xs:include schemaLocation="./ast/stmt"/>
     <xs:include schemaLocation="./ast/expr/AnnotationConstantExpression.xsd"/>
     <xs:include schemaLocation="./ast/expr/StaticMethodCallExpression.xsd"/>
-    <xs:include schemaLocation="./manual"/>
     <xs:include schemaLocation="./ast/Parameter.xsd"/>
     <xs:include schemaLocation="./ast/stmt/DoWhileStatement.xsd"/>
     <xs:include schemaLocation="./manual/Info.xsd"/>
@@ -33,7 +31,6 @@
     <xs:include schemaLocation="./manual/Trace.xsd"/>
     <xs:include schemaLocation="./ast/stmt/EmptyStatement.xsd"/>
     <xs:include schemaLocation="./ast/expr/MethodCallExpression.xsd"/>
-    <xs:include schemaLocation="./automatic"/>
     <xs:include schemaLocation="./ast/stmt/SwitchStatement.xsd"/>
     <xs:include schemaLocation="./ast/expr/ConstantExpression.xsd"/>
     <xs:include schemaLocation="./ast/expr/MapEntryExpression.xsd"/>
@@ -92,7 +89,7 @@
     <xs:include schemaLocation="./automatic/MethodException.xsd"/>
     <xs:include schemaLocation="./ast/expr/PropertyExpression.xsd"/>
     <xs:include schemaLocation="./EventTrailer.xsd"/>
-    -->
+    <!---->
     <xs:complexType name="ThreadHeader">
         <xs:complexContent>
             <xs:extension base="BaseLogEntry">

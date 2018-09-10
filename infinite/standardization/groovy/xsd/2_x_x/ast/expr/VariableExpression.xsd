@@ -15,10 +15,10 @@
                 <xs:sequence>
                     <xs:element name="expression" type="Expression" minOccurs="0"/>
                     <xs:choice>
-                        <xs:element name="accessedVariable" type="VariableExpression"/>
-                        <xs:element name="accessedVariable" type="FieldNode"/>
-                        <xs:element name="accessedVariable" type="PropertyNode"/>
-                        <xs:element name="accessedVariable" type="Parameter"/>
+                        <xs:element name="accessedVariableExpression" type="VariableExpression"/>
+                        <xs:element name="accessedFieldNode" type="FieldNode"/>
+                        <xs:element name="accessedPropertyNode" type="PropertyNode"/>
+                        <xs:element name="accessedParameter" type="Parameter"/>
                     </xs:choice>
                 </xs:sequence>
                 <xs:attribute use="required" name="variable" type="xs:string"/>
